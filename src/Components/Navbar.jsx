@@ -6,10 +6,10 @@ const Navbar = () => {
 
   return (
     <>
-     <div className='flex items-center justify-between mx-4 py-3 lg:mx-44'>
-      <img src={assets.logo} alt="" />
+     <div className='flex items-center justify-between mx-4 py-3 lg:mx-44 '>
+      <img className='w-33 sm:w-44' src={assets.logo} alt="" />
 
-      <button className=''>
+      <button className='bg-zinc-800 text-white flex items-center gap-4 px-4 py-2 sm:px-8 sm:py-3 rounded-full text-sm'>
         Get Started <img src={assets.arrow_icon} alt="" />
       </button>
      </div>
